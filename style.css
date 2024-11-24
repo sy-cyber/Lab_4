@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4B68D;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F4B68D;
+}
+
+.logo {
+    font-size: 72px;
+    color: #FF453A;
+    font-weight: bold;
+}
+
+.menu {
+    font-weight: bold;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.auth-buttons button {
+    padding: 20px 55px;
+    border: none;
+    border-radius: 16px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register {
+    background-color: #000;
+    color: #FFF;
+}
+
+.login {
+    background-color: #FF453A;
+    color: #FFF;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 64px;
+    color: #000;
+}
+
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 40px 70px;
+    font-size: 30px;
+    border: 0px solid #E2A368;
+    background-color: #F4D48F;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0%;
+    font-size: 35px;
+    background-color: #FF453A;
+    color: #FFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 37px 40px;
+}
+
+.image {
+    max-width: 200%;
+    margin-top: 100px;
+}
+
+.image img {
+    width: 100%;
+}
